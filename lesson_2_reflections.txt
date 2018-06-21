@@ -1,0 +1,21 @@
+Lesson 2 although top header says 3
+
+Lesson 2.4 Creating a repository
+git init to create a git repository in the folder
+git status to view its status
+
+quiz says I should have an initial commit but it doesn't.
+I suspect git changed "Initial commit" to "No commits yet" and the training isn't up-to-date.
+
+
+What happens when you initialize a repository? Why do you need to do it?
+Apparently it creates something that doen't match the video. I'm sure we'll need it later since git needs git repositories.
+
+git init
+git add
+git status
+staging area
+working directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area gives you a chance to set up the change/commit before it is put into the repository. The working directory is just where the files exist.

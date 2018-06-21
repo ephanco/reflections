@@ -1,0 +1,49 @@
+Lesson 1.6 Using FC to find bugs
+
+Used FC (file compare) from the command prompt to compare to large files. 
+
+Also,
+This is the first "reflection".
+To start from command line:
+Z:\
+	cd Udacity\version-control\reflections
+	notepad lesson_1_reflections_prompts.txt
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+This method works well for large files and can easily compare a working version of a file with a modifed version that isn't working. It helps to spot typos especially. The changes will also be shown so you have to skiip those and look for something that is not right.
+
+Lesson 1.8 Using History for Efficiency
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I think the biggest advantage is milestones of working code, where you know a particular version was working well, before changes were made. This is also important when others have access to the file and you can see their changes more easily.
+
+Lesson 1.15 Manual Commits
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The biggest "pro" is that you chose when the best time that works for you. It will be based on your preferences and when you think it makes the most sense. The "con" is that it is easy to forget to make teh commit or there is a power outage or other unplanned interrutpion and too much work is lost. Also, a con with autosaved versions is that they might not make much sense and you may have to try to figure out exactly where and when the save occured, which could take as long as just recreating it from scratch.
+
+Lesson 1.18 Multi-File Commits
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git seems to be more focused on coding, where it is common to have multiple files inter-related, whereas Google Docs is more generic and probably most files are standalone without interrelation.
+
+Lesson 1.22 Using Git to view history
+How can you use the commands git log and git diff to view the history of files?
+
+Use $git log game.js to view the log of commits. Use down arrow to keep scrolling down.
+To compare a single change, just use
+$git diff
+and the commit serial number for the one before and the one after.(you only have to use the first 4 or so digits in the sommit serial number) 
+
+Lesson 1.26 Confidense from version control
+How might using version control make you more confident to make changes that could break something?
+You can save the working version, make changes, try out the new one and easily spot diffreences and revert back if all else fails to work properly.
+
+Lesson 1.31
+Now that you have your workspace set up, what do you want to try using Git for?
+Not sure yet. I mostly want to learn how to use github for work realted use. Git bash seems to open MINGW64 instead and the interface is different so the "setting up your workspace" section doesn't apply.
+
+Lesson 2 Clone a repository
+$git clone http://(repository you want to clone to start using)
+Use $ git log   (but don't add any filename or you'll just be looking at that file's log)
+
+Command notes
+ls -a is like dir but with color
+up directory is cd ..   note the space
